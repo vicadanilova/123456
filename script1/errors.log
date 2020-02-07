@@ -1,0 +1,654 @@
+Binary file /var/log/syslog matches
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.040754] ACPI: bus type PCI registered
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.040755] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042341] ACPI: Added _OSI(Module Device)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042342] ACPI: Added _OSI(Processor Device)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042343] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042344] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042345] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042346] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042347] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042685] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047241] ACPI: Interpreter enabled
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047251] ACPI: (supports S0 S5)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047252] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047553] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047736] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.054954] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.112558] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.114517] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.114945] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.115082] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.115217] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.115763] ACPI: bus type USB registered
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox systemd[1]: Started ACPI Events Check.
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.116184] PCI: Using ACPI for IRQ routing
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.135243] pnp: PnP ACPI init
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.135318] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.135408] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.136383] pnp: PnP ACPI: found 2 devices
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.205947] ACPI: AC Adapter [AC] (off-line)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.206006] ACPI: Power Button [PWRF]
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.206085] ACPI: Sleep Button [SLPF]
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.207271] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.561724] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/syslog.1:Oct 25 08:13:01 victoria-VirtualBox systemd[1]: Started ACPI event daemon.
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.032508] ACPI: bus type PCI registered
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.032509] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034051] ACPI: Added _OSI(Module Device)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034051] ACPI: Added _OSI(Processor Device)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034052] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034053] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034054] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034055] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034056] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034391] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039057] ACPI: Interpreter enabled
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039068] ACPI: (supports S0 S5)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039069] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039545] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039786] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.047534] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.112068] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114095] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114501] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114640] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114779] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.115354] ACPI: bus type USB registered
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.115734] PCI: Using ACPI for IRQ routing
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.131629] pnp: PnP ACPI init
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.131704] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.131801] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.132796] pnp: PnP ACPI: found 2 devices
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.237676] ACPI: AC Adapter [AC] (off-line)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.237801] ACPI: Power Button [PWRF]
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.237974] ACPI: Sleep Button [SLPF]
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.242516] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.614940] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox systemd[1]: Started ACPI Events Check.
+/var/log/syslog.1:Oct 25 08:21:52 victoria-VirtualBox systemd[1]: Started ACPI event daemon.
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.032941] ACPI: bus type PCI registered
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.032943] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034706] ACPI: Added _OSI(Module Device)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034707] ACPI: Added _OSI(Processor Device)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034708] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034709] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034710] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034711] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034712] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.036128] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042503] ACPI: Interpreter enabled
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042515] ACPI: (supports S0 S5)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042516] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042825] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.043014] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.052506] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.121509] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.125286] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.125813] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.125957] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.126111] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.126877] ACPI: bus type USB registered
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.127378] PCI: Using ACPI for IRQ routing
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.147794] pnp: PnP ACPI init
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.147919] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.148044] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.149316] pnp: PnP ACPI: found 2 devices
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.276414] ACPI: AC Adapter [AC] (off-line)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.276472] ACPI: Power Button [PWRF]
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.276552] ACPI: Sleep Button [SLPF]
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.277697] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox systemd[1]: Started ACPI Events Check.
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.584258] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/syslog.1:Nov  1 09:40:31 victoria-VirtualBox systemd[1]: Started ACPI event daemon.
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.028778] ACPI: bus type PCI registered
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.028779] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041860] ACPI: Added _OSI(Module Device)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041861] ACPI: Added _OSI(Processor Device)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041862] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041863] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041866] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041867] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041868] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.042256] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046517] ACPI: Interpreter enabled
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046528] ACPI: (supports S0 S5)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046529] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046831] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.047015] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.055621] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.118303] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.121615] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122049] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122187] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122401] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122994] ACPI: bus type USB registered
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.123386] PCI: Using ACPI for IRQ routing
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.140215] pnp: PnP ACPI init
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.140329] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.140408] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.141346] pnp: PnP ACPI: found 2 devices
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.152106] ACPI: AC Adapter [AC] (off-line)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.152169] ACPI: Power Button [PWRF]
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.152247] ACPI: Sleep Button [SLPF]
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.153381] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox systemd[1]: Started ACPI Events Check.
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox systemd[1]: Started ACPI event daemon.
+/var/log/syslog.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.456192] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.032705] ACPI: bus type PCI registered
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.032706] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034489] ACPI: Added _OSI(Module Device)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034489] ACPI: Added _OSI(Processor Device)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034490] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034491] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034492] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034493] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034494] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034921] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.038817] ACPI: Interpreter enabled
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.038828] ACPI: (supports S0 S5)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.038829] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.039139] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.039327] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.047297] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.112116] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.114821] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.115332] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.115490] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.115625] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.116371] ACPI: bus type USB registered
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.116867] PCI: Using ACPI for IRQ routing
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.138609] pnp: PnP ACPI init
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.138685] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.138772] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.139735] pnp: PnP ACPI: found 2 devices
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.157971] ACPI: AC Adapter [AC] (on-line)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.158033] ACPI: Power Button [PWRF]
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.158113] ACPI: Sleep Button [SLPF]
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.159283] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.502066] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox systemd[1]: Started ACPI Events Check.
+/var/log/syslog.1:Nov  6 14:49:38 victoria-VirtualBox systemd[1]: Started ACPI event daemon.
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.032709] ACPI: bus type PCI registered
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.032710] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034420] ACPI: Added _OSI(Module Device)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034422] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034422] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034423] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034425] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034426] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034427] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.034889] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.040000] ACPI: Interpreter enabled
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.040000] ACPI: (supports S0 S5)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.040021] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.040332] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.040518] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.049366] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.112647] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.114652] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.115185] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.115351] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.115492] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.116046] ACPI: bus type USB registered
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.116425] PCI: Using ACPI for IRQ routing
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.136161] pnp: PnP ACPI init
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.136236] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.136333] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    0.137287] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    1.151150] ACPI: AC Adapter [AC] (on-line)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    1.151209] ACPI: Power Button [PWRF]
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    1.151288] ACPI: Sleep Button [SLPF]
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    1.152546] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log:Nov  6 15:08:19 victoria-VirtualBox kernel: [    1.485469] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.036227] ACPI: bus type PCI registered
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.036230] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041221] ACPI: Added _OSI(Module Device)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041222] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041224] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041225] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041227] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041229] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.041231] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.042096] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.053772] ACPI: Interpreter enabled
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.053939] ACPI: (supports S0 S5)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.053943] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.054586] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.054992] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.072703] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.154721] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.160395] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.161424] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.161711] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.161994] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.163244] ACPI: bus type USB registered
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.164000] PCI: Using ACPI for IRQ routing
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.205962] pnp: PnP ACPI init
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.206100] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.206441] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    0.208795] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    1.507626] ACPI: AC Adapter [AC] (off-line)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    1.507774] ACPI: Power Button [PWRF]
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    1.507928] ACPI: Sleep Button [SLPF]
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    1.511095] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log:Nov  8 10:03:34 victoria-VirtualBox kernel: [    1.912500] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.040754] ACPI: bus type PCI registered
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.040755] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042341] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042342] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042343] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042344] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042345] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042346] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042347] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.042685] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047241] ACPI: Interpreter enabled
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047251] ACPI: (supports S0 S5)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047252] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047553] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.047736] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.054954] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.112558] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.114517] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.114945] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.115082] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.115217] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.115763] ACPI: bus type USB registered
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.116184] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.135243] pnp: PnP ACPI init
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.135318] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.135408] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    0.136383] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.205947] ACPI: AC Adapter [AC] (off-line)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.206006] ACPI: Power Button [PWRF]
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.206085] ACPI: Sleep Button [SLPF]
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.207271] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log.1:Oct 25 08:13:01 victoria-VirtualBox kernel: [    1.561724] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.032508] ACPI: bus type PCI registered
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.032509] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034051] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034051] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034052] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034053] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034054] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034055] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034056] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.034391] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039057] ACPI: Interpreter enabled
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039068] ACPI: (supports S0 S5)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039069] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039545] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.039786] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.047534] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.112068] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114095] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114501] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114640] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.114779] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.115354] ACPI: bus type USB registered
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.115734] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.131629] pnp: PnP ACPI init
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.131704] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.131801] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    0.132796] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.237676] ACPI: AC Adapter [AC] (off-line)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.237801] ACPI: Power Button [PWRF]
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.237974] ACPI: Sleep Button [SLPF]
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.242516] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log.1:Oct 25 08:21:52 victoria-VirtualBox kernel: [    1.614940] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.032941] ACPI: bus type PCI registered
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.032943] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034706] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034707] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034708] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034709] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034710] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034711] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.034712] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.036128] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042503] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042515] ACPI: (supports S0 S5)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042516] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.042825] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.043014] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.052506] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.121509] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.125286] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.125813] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.125957] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.126111] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.126877] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.127378] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.147794] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.147919] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.148044] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    0.149316] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.276414] ACPI: AC Adapter [AC] (off-line)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.276472] ACPI: Power Button [PWRF]
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.276552] ACPI: Sleep Button [SLPF]
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.277697] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov  1 09:40:31 victoria-VirtualBox kernel: [    1.584258] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.028778] ACPI: bus type PCI registered
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.028779] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041860] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041861] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041862] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041863] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041866] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041867] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.041868] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.042256] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046517] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046528] ACPI: (supports S0 S5)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046529] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.046831] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.047015] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.055621] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.118303] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.121615] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122049] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122187] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122401] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.122994] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.123386] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.140215] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.140329] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.140408] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    0.141346] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.152106] ACPI: AC Adapter [AC] (off-line)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.152169] ACPI: Power Button [PWRF]
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.152247] ACPI: Sleep Button [SLPF]
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.153381] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov  6 13:39:11 victoria-VirtualBox kernel: [    1.456192] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000009c7f0000-0x000000009c7fffff] ACPI data
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000009C7F0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000009C7F00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000009C7F0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000009C7F0200 000040
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000009C7F0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000009C7F02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.032705] ACPI: bus type PCI registered
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.032706] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034489] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034489] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034490] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034491] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034492] ACPI: Added _OSI(Linux-Dell-Video)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034493] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034494] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.034921] ACPI: Executed 1 blocks of module-level executable AML code
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.038817] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.038828] ACPI: (supports S0 S5)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.038829] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.039139] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.039327] ACPI: Enabled 2 GPEs in block 00 to 07
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.047297] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.112116] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.114821] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.115332] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.115490] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.115625] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.116371] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.116867] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.138609] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.138685] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.138772] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    0.139735] pnp: PnP ACPI: found 2 devices
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.157971] ACPI: AC Adapter [AC] (on-line)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.158033] ACPI: Power Button [PWRF]
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.158113] ACPI: Sleep Button [SLPF]
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.159283] ACPI: Battery Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov  6 14:49:38 victoria-VirtualBox kernel: [    1.502066] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000593828b18d656-2edc91cb3f8b9b10.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000593836fb09076-d77c9bc8615beecf.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000592f5485b7a59-2400dbcb1e018212.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@00059384d90b9025-c21e536cf5b9e3fc.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@00059410624ec5e2-0b6ce6594f13e440.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@00059412b24c6b04-0abc578858dbaa42.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000596441475ae76-c2359ec42c1bbe10.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@0005949b9c64da04-008c9d549d3c9aeb.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000596acfb3b8011-79735b30f4a69732.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000595b553b7daaa-723f8276fb723f42.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000592f7fdaadedf-92176667adedaf9f.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000593871ffeb79a-72b59a4844df1d8f.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system@000596abff33dadb-2d6c5fc4ea0b9d62.journal~ matches
+Binary file /var/log/journal/f3d85c83fd6e458aba76dbf56f683032/system.journal matches
